@@ -77,9 +77,9 @@ function processCommand(command) {
       case "cat":
         commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
         if (args[1] === "portfolio") {
-          renderLine("My Web Portfolio Page's Link is... https://wlstmd.github.io/PortfolioV1/", 80);
+          renderLine("My Web Portfolio Page's Link is... https://8.06gw.github.io/PortfolioV1/", 80);
         } else if (args[1] === "github") {
-          renderLine("This is my Github Page: https://github.com/wlstmd", 80);
+          renderLine("This is my Github Page: https://github.com/806gw", 80);
         } else if (args[1] === "mystery") {
           renderLine("There's no mystery ~~", 80);
         } else {
@@ -96,7 +96,7 @@ function processCommand(command) {
       break;
     case "pwd":
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
-      renderLine("/home/wlstmd");
+      renderLine("/home/806gw");
       break;
     case "echo":
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
@@ -107,10 +107,10 @@ function processCommand(command) {
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
       if (args[1] === "github") {
         renderLine("Redirecting to my Github Page...", 80);
-        newTab("https://github.com/wlstmd");
+        newTab("https://github.com/806gw");
       } else if (args[1] === "webPortfolio") {
         renderLine("Redirecting to my Web Portfolio", 80);
-        newTab("https://wlstmd.github.io/PortfolioV1/");
+        newTab("https://806gw.github.io/PortfolioV1/");
       } else if (args[1] === "videos") {
         renderLine("Opening Mystery Gift...", 80);
         newTab("https://www.youtube.com/watch?v=bgJ_1WuhUig");

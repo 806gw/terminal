@@ -1,21 +1,19 @@
-const LINKEDIN = "https://www.linkedin.com/in/wlstmd/";
-const INSTAGRAM = "https://www.instagram.com/wlstmd_/";
-const GITHUB = "https://github.com/wlstmd";
-const EMAIL = "jinseung0327@gmail.com";
-const USERNAME = "wlstmd";
+const INSTAGRAM = "https://www.instagram.com/8.06gw/";
+const GITHUB = "https://github.com/806gw";
+const EMAIL = "shjea4364@naver.com";
+const USERNAME = "8.06gw";
 
 const ABOUT = [
   "<br>",
   "Hello there!👋",
   "              ",
-  "I'm Jinseung, a Student, Studying ",
-  "I'm hoping for the Cloud Engineer.",
-  "I love dogs and to code. 🧑‍💻",
+  "I'm Hongje, a Student, Studying ",
+  "I'm hoping for the Frontend-developer.",
   "                            ",
   "                            ",
-  "I have always been interested in",
-  "computer since I was a middle school",
-  "student. I always wanted to be a developer",
+  "I became interested in coding",
+  "when I was in middle school.",
+  "I wanted to be a developer",
   "It was always my dream to make an website to",
   "make people happy and to make their lives",
   "easier.",
@@ -25,11 +23,6 @@ const ABOUT = [
 
 SOCIAL = [
   "<br>",
-  'linkedin       <a href="' +
-    LINKEDIN +
-    '" target="_blank">linkedin/' +
-    USERNAME +
-    "</a>",
   'instagram      <a href="' +
     INSTAGRAM +
     '" target="_blank">instagram/' +
@@ -92,13 +85,9 @@ COMMAND_LIST = [
 ];
 
 BANNER = [
-  "                                  ® 2024   ",
-  "      _ _                                  ",
-  "     | (_)_ __  ___  ___ _   _ _ __   __ _ ",
-  "  _  | | | '_ \\/ __|/ _ \\ | | | '_ \\ / _` |",
-  " | |_| | | | | \\__ \\  __/ |_| | | | | (_| |",
-  "  \\___/|_|_| |_|___/\\___|\\__,_|_| |_|\\__, |",
-  "                                     |___/ ",
+  "Microsoft Windows [Version 10.0.19045.2846]",
+  "(c) Microsoft Corporation. All rights reserved.",
+  "                                           ",
   "      ▀█▀ █▀▀ █▀▄ █▄█ ▀█▀ █▀█ █▀█ █        ",
   "       █  █▀▀ █▀▄ █ █  █  █ █ █▀█ █        ",
   "       ▀  ▀▀▀ ▀ ▀ ▀ ▀ ▀▀▀ ▀ ▀ ▀ ▀ ▀▀▀      ",
@@ -124,11 +113,11 @@ EMPTY = [];
 
 EDUCATION_INFO = [
   "|",
-  "<strong>천생초등학교</strong> (Cheonsaeng Elementary School)",
+  "<strong>상영초등학교</strong> (Sangyoung Elementary School)",
   "2014. 3 - 2020. 1",
   "Graduated (졸업)",
   "|",
-  "<strong>약목중학교</strong> (YakMok Middle School)",
+  "<strong>남산중학교</strong> (Namsan Middle School)",
   "2020. 3 - 2023. 1",
   "Graduated (졸업)",
   "|",
@@ -140,11 +129,11 @@ EDUCATION_INFO = [
 
 MOBILE_EDUCATION_INFO = [
   "|",
-  "<strong>천생초등학교</strong> (Cheonsaeng Elementary School)",
+  "<strong>상영초등학교</strong> (Sangyoung Elementary School)",
   "2014. 3 - 2020. 1",
   "Graduated (졸업)",
   "|",
-  "<strong>약목중학교</strong> (YakMok Middle School)",
+  "<strong>남산중학교</strong> (Namsan Middle School)",
   "2020. 3 - 2023. 1",
   "Graduated (졸업)",
   "|",
@@ -156,14 +145,12 @@ MOBILE_EDUCATION_INFO = [
 
 TERMINAL_INFO = [
   "                            ",
-  "Hi! Welcome to my Terminal!",
+  "Welocme to terminal",
   "--------",
   "                            ",
-  "I'm Studying to be a...",
+  "Gyeongbuk Software High school Student",
   "--------",
-  " * Cloud Engineer ",
-  " * DevOps Engineer ",
-  " * Backend Devloper ",
+  " * Frontend Devloper ",
   "--------",
   "                            ",
   "* This terminal is new, so I still haven't added the <span class=\"command\">'TAB TO COMPLETE'</span> feature.",
@@ -174,26 +161,21 @@ TERMINAL_INFO = [
 ];
 
 TERMINAL_INFO_MOBILE = [
-  "Hi! Welcome to my Terminal!",
+  "Welocme to terminal",
   "--------",
-  "I'm Studying to be a...",
+  "                            ",
+  "Gyeongbuk Software High school Student",
   "--------",
-  " * Cloud Engineer ",
-  " * DevOps Engineer ",
-  " * Backend Devloper ",
-  "---------",
+  " * Frontend Devloper ",
+  "--------",
   "For a list of available commands, type <span class=\"command\">'help'</span>.",
   "                            ",
 ];
 
 MOBILE_BANNER = [
-  "                                  ® 2024   ",
-  "      _ _                                  ",
-  "     | (_)_ __  ___  ___ _   _ _ __   __ _ ",
-  "  _  | | | '_ \\/ __|/ _ \\ | | | '_ \\ / _` |",
-  " | |_| | | | | \\__ \\  __/ |_| | | | | (_| |",
-  "  \\___/|_|_| |_|___/\\___|\\__,_|_| |_|\\__, |",
-  "                                     |___/ ",
+  "Microsoft Windows [Version 10.0.19045.2846]",
+  "(c) Microsoft Corporation. All rights reserved.",
+  "                                           ",
   "      ▀█▀ █▀▀ █▀▄ █▄█ ▀█▀ █▀█ █▀█ █        ",
   "       █  █▀▀ █▀▄ █ █  █  █ █ █▀█ █        ",
   "       ▀  ▀▀▀ ▀ ▀ ▀ ▀ ▀▀▀ ▀ ▀ ▀ ▀ ▀▀▀      ",

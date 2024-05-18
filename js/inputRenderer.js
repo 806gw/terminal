@@ -1,5 +1,5 @@
 const MOVE_STEP = 10;
-const BASE_ROOT = "/home/wlstmd $ ";
+const BASE_ROOT = "/home/8.06gw $ ";
 
 const cursor = document.getElementById("cursor");
 const typerElement = document.getElementById("typer");

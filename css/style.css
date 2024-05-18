@@ -1,10 +1,10 @@
 :root {
-    --background: #2B2B2B;
+    --background: #000;
     --primaryTextColor: #e5e5e5;
     --secundaryTextColor: #ffffff;
     --highlightTextColor: #00ff00;
     --white: #fff;
-    --baseDirectory: "/home/wlstmd $";
+    --baseDirectory: "/home/806gw $";
   }
 
   * {
