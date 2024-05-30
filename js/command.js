@@ -38,30 +38,10 @@ SOCIAL = [
 
 PROJECTS = [
   "<br>",
-  "Here are some of my projects:",
-  "<br>",
-  "<strong> - Website <strong>",
-  "Responsive Portfolio Website",
-  "it has clean and modern design",
-  "and has animation with responsive features",
-  "<a href=https://github.com/wlstmd/PortfolioV1> GitHub link",
+  "<strong> - Frontend <strong>",
   "Tech stack: HTML, CSS, JavaScript",
   "<br>",
-  "<strong> - Website <strong>",
-  "Website with Nest.JS & React.JS",
-  "website made with AWS SDK",
-  "Through your AWS account unique ID",
-  "You can check the monthly expenses for each account.",
-  "Tech stack: Nest.JS, React.JS",
-  "<a href=https://github.com/GBSWHS/AWS-Cost> GitHub link",
-  "<br>",
-  "<strong> - Website <strong>",
-  "Website with Ruby on Rails",
-  "It fits our class schedule.",
-  "Random spot drawing site",
-  "<a href=https://github.com/wlstmd/Random-Seat-V2> GitHub link",
-  "<br>",
-  "<strong> More at my GitHub <strong>",
+  "Learned: TypeScript, React, python",
   "<br>",
 ];
 
@@ -91,7 +71,7 @@ BANNER = [
   "      ▀█▀ █▀▀ █▀▄ █▄█ ▀█▀ █▀█ █▀█ █        ",
   "       █  █▀▀ █▀▄ █ █  █  █ █ █▀█ █        ",
   "       ▀  ▀▀▀ ▀ ▀ ▀ ▀ ▀▀▀ ▀ ▀ ▀ ▀ ▀▀▀      ",
-]
+];
 
 DIRECTORIES = [
   "<span class='directory'>github/</span>",
