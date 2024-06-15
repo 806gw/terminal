@@ -1,7 +1,10 @@
 const INSTAGRAM = "https://www.instagram.com/8.06gw/";
 const GITHUB = "https://github.com/806gw";
+const VELOG = "https://velog.io/@806gw/posts";
+const SOLVED = "https://solved.ac/profile/8_06gw";
 const EMAIL = "shjea4364@naver.com";
 const USERNAME = "8.06gw";
+const SOLVEDNAME = "8_06gw";
 
 const ABOUT = [
   "<br>",
@@ -32,6 +35,16 @@ SOCIAL = [
     GITHUB +
     '" target="_blank">github/' +
     USERNAME +
+    "</a>",
+  'velog          <a href="' +
+    VELOG +
+    '" target="_blank">velog/' +
+    USERNAME +
+    "</a>",
+  'solved         <a href="' +
+    SOLVED +
+    '" target="_blank">solved/' +
+    SOLVEDNAME +
     "</a>",
   "<br>",
 ];
