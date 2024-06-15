@@ -36,7 +36,7 @@ SOCIAL = [
   "<br>",
 ];
 
-PROJECTS = [
+STACK = [
   "<br>",
   "<strong> - Frontend <strong>",
   "Tech stack: HTML, CSS, JavaScript",
@@ -51,7 +51,7 @@ COMMAND_LIST = [
   '<span class="command">social</span>         Display social networks',
   '<span class="command">education</span>      Show my education',
   '<span class="command">notion</span>         Open my web curriculum',
-  '<span class="command">projects</span>       View some of my projects',
+  '<span class="command">stack</span>          View my tech-stack',
   '<span class="command">history</span>        Show command history',
   '<span class="command">email</span>          Feel free to reach out',
   '<span class="command">banner</span>         Display the header',

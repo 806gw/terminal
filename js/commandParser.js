@@ -32,9 +32,9 @@ function processCommand(command) {
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
       renderMultipleLines(SOCIAL, 80);
       break;
-    case "projects":
+    case "stack":
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
-      renderMultipleLines(PROJECTS, 80);
+      renderMultipleLines(STACK, 80);
       break;
     case "email":
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
@@ -47,7 +47,7 @@ function processCommand(command) {
     case "notion":
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
       newTab(
-        "https://jinseungdev.notion.site/6aec6d51c94a428cb7eaeeaf0fa2c43a?pvs=4"
+        "https://806gw.notion.site/93c2748e0dc84106a14b440ce3908e6f?pvs=4"
       );
       break;
     case "clear":
@@ -74,18 +74,21 @@ function processCommand(command) {
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
       renderMultipleLines(VI, 80);
       break;
-      case "cat":
-        commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
-        if (args[1] === "portfolio") {
-          renderLine("My Web Portfolio Page's Link is... https://8.06gw.github.io/PortfolioV1/", 80);
-        } else if (args[1] === "github") {
-          renderLine("This is my Github Page: https://github.com/806gw", 80);
-        } else if (args[1] === "mystery") {
-          renderLine("There's no mystery ~~", 80);
-        } else {
-          renderLine("Input Directory! " + args.slice(1).join(" "));
-        }
-        break;
+    case "cat":
+      commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
+      if (args[1] === "portfolio") {
+        renderLine(
+          "My Web Portfolio Page's Link is... https://8.06gw.github.io/PortfolioV1/",
+          80
+        );
+      } else if (args[1] === "github") {
+        renderLine("This is my Github Page: https://github.com/806gw", 80);
+      } else if (args[1] === "mystery") {
+        renderLine("There's no mystery ~~", 80);
+      } else {
+        renderLine("Input Directory! " + args.slice(1).join(" "));
+      }
+      break;
     case "education":
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
       if (mql.matches) {
